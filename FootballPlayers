@@ -1,0 +1,44 @@
+DROP TABLE iF EXISTS FootballPlayers;
+
+CREATE TABLE FootballPlayers(ID INT, FirstName TEXT, SurName TEXT, Team TEXT, Positon TEXT, Price FLOAT);
+
+INSERT INTO FootballPlayers
+VALUES(1,'Kasper','Schmeichel','Leicester','GK','5.5');
+INSERT INTO FootballPlayers VALUES(2,'Emiliano','Martinez','Aston
+Villa','GK','4.9');
+INSERT INTO FootballPlayers VALUES(3,'Ederson','Moraes','Man
+City','GK','6.1');
+INSERT INTO FootballPlayers VALUES(4,'John','Stones','Man
+City','DF','5.2');
+INSERT INTO FootballPlayers VALUES(5,'Ruben','Dias','Man
+City','DF','6.1');
+INSERT INTO FootballPlayers VALUES(6,'Matt','Targett','West
+Ham','DF','4.9');
+INSERT INTO FootballPlayers VALUES(7,'Aaron','Cresswell','West
+Ham','DF','5.8');
+INSERT INTO FootballPlayers
+VALUES(8,'Rob','Holding','Arsenal','DF','4.5');
+INSERT INTO FootballPlayers
+VALUES(9,'Harvey','Barnes','Leicester','MD','6.9');
+INSERT INTO FootballPlayers
+VALUES(10,'Mohamed','Salah','Liverpool','MD','12.2');
+INSERT INTO FootballPlayers VALUES(11,'Ilkay','Gundogan','Man
+City','MD','6.1');
+INSERT INTO FootballPlayers VALUES(12,'Bruno','Ferandes','Man
+Utd','MD','11.6');
+INSERT INTO FootballPlayers VALUES(13,'Tomas','Soucek','West
+Ham','MD','5.3');
+INSERT INTO FootballPlayers VALUES(14,'Bruno','Ferandes','Man
+Utd','MD','11.6');
+INSERT INTO FootballPlayers
+VALUES(15,'Dominic','Calvert-Lewin','Everton','AT','7.7');
+INSERT INTO FootballPlayers
+VALUES(16,'Robert','Firmino','Liverpool','AT','9.2');
+INSERT INTO FootballPlayers
+VALUES(17,'Patrick','Bamford','Leeds','AT','6.9');
+
+
+SELECT * FROM WHERE Team = 'Leicester' 
+SELECT * FROM WHERE Team = 'West Ham'  
+
+ORDER BY Price DESC
